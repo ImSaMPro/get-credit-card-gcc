@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    color: #ffffff;
+}
+
+#part-row{
+    height: auto;
+    width: 80%;
+    margin: 0 150px;
+    display: flex;
+    gap: 10px;
+}
+
+#part-row #part-col{
+    height: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+#header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    margin-top: 5vh;
+}
+
+#header h2{
+    font-weight: 900;
+    font-size: 2em;
+    padding: 0 20px;
+}
+
+#header ul{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#header ul li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+#bg-scene1{
+    background: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#card{
+    height: auto;
+    width: 80vw;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+#card-body{
+    margin: 20px;
+}
+
+#cc-img{
+    height: 400px;
+    width: 100%;
+}
+
+#main-header{
+    font-size: 3.5em;
+    font-weight: 900;
+    line-height: 1;
+    padding-bottom: 30px;
+}
+
+#btn{
+    width: fit-content;
+    margin: 30px 0;
+    padding: 10px 20px;
+    background: rgba(0, 100, 250, 0.5);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    cursor: pointer;
+}
+
+#footer ul{
+    display: flex;
+    justify-content: left;
+}
+
+#footer ul li{
+    list-style: none;
+    margin: 0 50px 0 0;
+}
+
+#footer ul li i{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#footer #footer-p{
+    text-align: right;
+}
+
